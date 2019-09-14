@@ -1,8 +1,9 @@
 <template>
+<el-card shadow="always">
   <div class="banner">
     <el-carousel
-      trigger="click"
-      height="650px"
+      height="350px"
+      type="card"
       :indicator-position="indicatorStatus"
       :interval="5000"
     >
@@ -13,6 +14,7 @@
       ></el-carousel-item>
     </el-carousel>
   </div>
+</el-card>
 </template>
 <script>
 export default {
@@ -36,7 +38,7 @@ export default {
   background-color: #afafaf;
 }
 .banner .el-carousel__indicator.is-active button {
-  background-image: linear-gradient(-180deg, #ffb67e 0%, #ff7f48 100%);
+  background-image: linear-gradient(-180deg, #409EFF 0%, #409EFF 100%);
 }
 .banner .el-carousel__arrow {
   font-size: 20px;

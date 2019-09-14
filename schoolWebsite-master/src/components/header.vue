@@ -80,7 +80,7 @@ export default {
   z-index: 10;
   .top {
     height: 70px;
-    background-color: #133b28;
+    background-color: #409EFF;
     background: url("../assets/Group.png");
     padding: 0 70px;
     color: #fff;
@@ -112,12 +112,12 @@ export default {
       height: 100%;
       line-height: 50px;
       padding: 0 35px;
-      color: #133b28;
+      color: #409EFF;
       font-size: 18px;
       margin: 0 11px;
       &:hover,
       &.active {
-        background-color: #133b28;
+        background-color: #409EFF;
         color: #fff;
       }
     }

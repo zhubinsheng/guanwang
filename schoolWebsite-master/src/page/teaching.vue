@@ -40,7 +40,7 @@
         <div class="loadmore" @click="loadmore">加载更多</div>
       </div>
 
-      <<!--div class="title">私募股权投资（PE/VC）与资本战略董事长研修班</div>
+      <!--div class="title">私募股权投资（PE/VC）与资本战略董事长研修班</div>
       <div class="main">
         <div class="content" v-html="content"></div>
         <div class="form">
